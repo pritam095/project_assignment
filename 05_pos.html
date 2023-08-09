@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 pos assignment</title>
+    <style>
+        .div-parent{
+            width: 40%;
+            height: 400px;
+            border: 2px solid #000000;
+            margin-top: 200px;
+            margin-bottom: 150px;
+            margin-left: 400px;
+            position: relative;
+            background: linear-gradient(#9b9be8,#685c5c);
+        }
+        .child1{
+            width: 40%;
+            height: 50px;
+            border: 1px solid red;
+            background-color: orangered;
+            border-radius: 5px;
+            margin-top:150px ;
+            margin-left: 160px;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 0px;
+            font-size: 30px;
+            color: #171716;
+            font-weight: 700;
+            position: relative;
+            z-index: 1;
+        }
+        .child2{
+            background-color: #2f2c2c;
+            width: 20%;
+            height: 30px;
+            color: #f0f8ff;
+            text-align: center;
+            border-radius: 6px;
+            padding-top: 10px;
+            position: absolute;
+            top:130px;
+            left:330px;
+            z-index: 2;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="div-parent">
+        <div class="child1">Buy Now</div>
+        <div class="child2">15% Off</div>
+    </div>
+</body>
+</html>
